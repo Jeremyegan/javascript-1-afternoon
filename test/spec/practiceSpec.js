@@ -18,7 +18,7 @@ describe('js-day1-basic-assessment', function() {
     it('should exist', function() {
       expect(greeting).toBeDefined();
     })
-    it('should be made with a functon delceration', function(){
+    it('should be made with a functon decleration', function(){
       let str = greeting.toString();
       let match = !!str.match(/function greeting\s?\(/);
       expect(match).toBe(true);
